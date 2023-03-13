@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <script>
+      var students = ["Aman", "Khush", "Reena", "kanchan", "Ankita", "Anamika"]; //student names in an array
+      checkName: //label
+        for(var std = 0; std < students.length; std++) //checking each student in the list
+        {
+          if (students[std] == "kanchan2"){ //if student is kanchan
+            document.write("Kanchan is a student of BeataEdgeJavaScript tutorials.");
+            break checkName;
+          }else{ //if student is not Kanchan
+            document.write(students[std] + "</br>");
+          }
+        }
+    </script>
+  </body>
+</html>
